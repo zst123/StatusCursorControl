@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name" >
+
+    <com.zst.xposed.statuscursorcontrol.preference.WidgetNumberPicker
+        defaultValue="12"
+        maximum="100"
+        minimum="1"
+        android:key="slide_sensitivity"
+        android:summary="@string/slide_sensitivity_summary"
+        android:title="@string/slide_sensitivity_title" />
+
+    <CheckBoxPreference
+        android:key="block_brightness"
+        android:summary="@string/block_brightness_summary"
+        android:title="@string/block_brightness_title" />
+
+    <com.zst.xposed.statuscursorcontrol.preference.TestKeyboard
+        hint="@string/test_keyboard_title" />
+
+</PreferenceScreen>

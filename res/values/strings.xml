@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StatusCursorControl</string>
+    <string name="app_description">Control edit text cursor by swiping status bar (zst123)</string>
+
+    <!-- Settings -->
+    <string name="settings_default">Default</string>
+    <string name="slide_sensitivity_title">Slide Sensitivity</string>
+    <string name="slide_sensitivity_summary">The minimum distance (in dp) that your finger needs to slide for each left/right movement.</string>
+    <string name="block_brightness_title">Block Brightness Control</string>
+    <string name="block_brightness_summary">This will prevent screen brightness from changing when the keyboard is open.\n(for ROMs with statusbar brightness control)</string>
+    <string name="test_keyboard_title">Test StatusCursorControl here.\nSwipe left and right on the status bar!</string>
+    
+</resources>
